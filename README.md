@@ -1,4 +1,5 @@
 https://docs.google.com/document/d/1669Ag2UEVMJROwwHDtXM9LHzRA4AazZpcZ3_2tzK394/edit?tab=t.0
+
 Problem: Hunting for a quick laugh means bouncing between sites, losing track of good jokes, and no place to save favorites.  
 Solution: QuipQuick is a single-page app that fetches a random joke on demand, lets you star the ones you love, and view your personal collection later
 
