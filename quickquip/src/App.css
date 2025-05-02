@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  border-bottom: 1px solid #79a0ef;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .site-header .logo {
@@ -12,7 +12,7 @@
 
 .site-header nav {
   display: flex;
-  gap: 2rem;              /* more room between links */
+  gap: 2rem;          
 }
 
 .site-header a {
