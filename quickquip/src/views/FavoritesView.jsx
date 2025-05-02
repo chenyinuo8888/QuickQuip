@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-
+import './FavoritesView.css'
 export default function FavoritesView() {
   const [favs, setFavs] = useState([])
 
@@ -20,7 +20,7 @@ export default function FavoritesView() {
         <div key={j.id} className="fav-card">
           <strong>{i+1}.</strong>
           <span>{j.setup} <em>{j.punchline}</em></span>
-          <button onClick={() => remove(j.id)}>💔</button>
+          <button onClick={() => remove(j.id)}> 💔 </button>
         </div>
       ))}
     </section>

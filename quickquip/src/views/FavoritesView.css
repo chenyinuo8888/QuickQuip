@@ -1,0 +1,51 @@
+.favorites {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;               
+  }
+
+  .fav-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .fav-card strong {
+    margin-right: 1rem;
+    color: #555;
+  }
+  
+  .fav-card span {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #333;
+  }
+  
+  .fav-card button {
+    background-color: #9f9ddd;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  .fav-card button:hover {
+    background-color: #c53030;
+    transform: translateY(-1px);
+  }
+  
+  .fav-card button:active {
+    transform: translateY(0);
+  }
+  
