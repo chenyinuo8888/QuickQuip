@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react'
 import './JokeView.css'
 
 export default function JokeView() {
-  const [joke, setJoke]               = useState(null)
-  const [showPunchline, setShow]     = useState(false)
-  const [favorites, setFavs]         = useState(() => {
+  const [joke, setJoke] = useState(null)
+  const [showPunchline, setShow] = useState(false)
+  const [favorites, setFavs] = useState(() => {
     return JSON.parse(localStorage.getItem('qq-favs') || '[]')
   })
   useEffect(() => { loadJoke() }, [])
